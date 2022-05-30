@@ -1,0 +1,815 @@
+[
+  {
+    "model": "foods.foods",
+    "pk": 1,
+    "fields": {
+      "name": "name",
+      "usual_measure": 1.2,
+      "hc_rations": 1.2,
+      "glycemic_index": 1.2
+    }
+  },
+  {
+    "pk": 2,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Cuscús, crudo",
+      "hc_rations": 15
+    }
+  },
+  {
+    "pk": 3,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Cuscús, cocido",
+      "hc_rations": 65,
+      "glycemic_index": 65
+    }
+  },
+  {
+    "pk": 4,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Fideos de arroz, tipo Udon, cocido",
+      "hc_rations": 50,
+      "glycemic_index": 50
+    }
+  },
+  {
+    "pk": 5,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Fideos de soja, cocido",
+      "hc_rations": 40
+    }
+  },
+  {
+    "pk": 6,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Galleta tipo Digestiva",
+      "hc_rations": 16,
+      "usual_measure": 11,
+      "glycemic_index": 65
+    }
+  },
+  {
+    "pk": 7,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Galleta tipo María",
+      "hc_rations": 15,
+      "usual_measure": 7,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 8,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Galleta tipo Príncipe",
+      "hc_rations": 14,
+      "usual_measure": 15,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 9,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Galleta sin azúcar",
+      "hc_rations": 18,
+      "usual_measure": 7,
+      "glycemic_index": 50
+    }
+  },
+  {
+    "pk": 10,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Garbanzo, crudo",
+      "hc_rations": 20
+    }
+  },
+  {
+    "pk": 11,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Garbanzo, cocido",
+      "hc_rations": 50,
+      "usual_measure": 300,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 12,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Guisantes congelados, frescos, de lata",
+      "hc_rations": 100,
+      "usual_measure": 600,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 13,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Harina de trigo o maíz",
+      "hc_rations": 15,
+      "usual_measure":  14,
+      "glycemic_index": 78
+    }
+  },
+  {
+    "pk": 14,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Harina de centeno",
+      "hc_rations": 17,
+      "usual_measure":  14 ,
+      "glycemic_index": 45
+    }
+  },
+  {
+    "pk": 15,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Harina de soja",
+      "hc_rations": 70,
+      "usual_measure": 14,
+      "glycemic_index": 25
+    }
+  },
+  {
+    "pk": 16,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Hojaldre crudo",
+      "hc_rations": 30
+    }
+  },
+  {
+    "pk": 17,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Hojaldre horneado",
+      "hc_rations": 24
+    }
+  },
+  {
+    "pk": 18,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Judías blancas, crudo",
+      "hc_rations": 20
+    }
+  },
+  {
+    "pk": 19,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Judías blancas, cocido",
+      "hc_rations": 50,
+      "usual_measure": 300,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 20,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Lentejas, crudo",
+      "hc_rations": 20
+    }
+  },
+  {
+    "pk": 21,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Lentejas, cocido",
+      "hc_rations": 50,
+      "usual_measure": 300,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 22,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Maíz en lata",
+      "hc_rations": 50,
+      "usual_measure": 150,
+      "glycemic_index": 65
+    }
+  },
+  {
+    "pk": 23,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Maíz en lata sin azúcar añadido",
+      "hc_rations": 90,
+      "usual_measure": 150
+    }
+  },
+  {
+    "pk": 24,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Maíz tostado (quicos)",
+      "hc_rations": 20,
+      "usual_measure": 40
+    }
+  },
+  {
+    "pk": 25,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Mijo, crudo",
+      "hc_rations": 15
+    }
+  },
+  {
+    "pk": 26,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Mijo, cocido",
+      "hc_rations": 53,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 27,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Müesli",
+      "hc_rations": 15,
+      "glycemic_index": 65
+    }
+  },
+  {
+    "pk": 28,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pan blanco",
+      "hc_rations": 20,
+      "usual_measure": 20,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 29,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pan de centeno",
+      "hc_rations": 20,
+      "glycemic_index": 65
+    }
+  },
+  {
+    "pk": 30,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pan de molde",
+      "hc_rations": 20,
+      "usual_measure": 25,
+      "glycemic_index": 85
+    }
+  },
+  {
+    "pk": 31,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pan de hamburguesa o Frankfurt",
+      "hc_rations": 18,
+      "usual_measure": 80,
+      "glycemic_index": 85
+    }
+  },
+  {
+    "pk": 32,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pan de trigo integral",
+      "hc_rations": 23,
+      "glycemic_index": 40
+    }
+  },
+  {
+    "pk": 33,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pan rallado",
+      "hc_rations": 15,
+      "usual_measure": 23,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 34,
+    "model": "foods.foods",
+    "fields": {
+      "name": "LÁCTEOS"
+    }
+  },
+  {
+    "pk": 35,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Cuajada",
+      "hc_rations": 200,
+      "usual_measure": 125,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 36,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Flan",
+      "hc_rations": 50,
+      "usual_measure": 125
+    }
+  },
+  {
+    "pk": 37,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Helado de crema",
+      "hc_rations": 50,
+      "usual_measure": 100,
+      "glycemic_index": 60
+    }
+  },
+  {
+    "pk": 38,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Helado de hielo",
+      "hc_rations": 50,
+      "usual_measure": 100,
+      "glycemic_index": 65
+    }
+  },
+  {
+    "pk": 39,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Helado sin azúcar añadido",
+      "hc_rations": 100,
+      "usual_measure": 100,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 40,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Kéfir",
+      "hc_rations": 200,
+      "usual_measure": 125,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 41,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Leche desnatada",
+      "hc_rations": 200,
+      "usual_measure": 200,
+      "glycemic_index": 32
+    }
+  },
+  {
+    "pk": 42,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Leche semidesnatada",
+      "hc_rations": 200,
+      "usual_measure": 200,
+      "glycemic_index": 30
+    }
+  },
+  {
+    "pk": 43,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Leche entera",
+      "hc_rations": 200,
+      "usual_measure": 200,
+      "glycemic_index": 27
+    }
+  },
+  {
+    "pk": 44,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Leche condensada",
+      "hc_rations": 20,
+      "usual_measure": 20,
+      "glycemic_index": 61
+    }
+  },
+  {
+    "pk": 45,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Leche en polvo",
+      "hc_rations": 25,
+      "usual_measure": 25,
+      "glycemic_index": 30
+    }
+  },
+  {
+    "pk": 46,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Nata líquida",
+      "hc_rations": 300,
+      "usual_measure": 200
+    }
+  },
+  {
+    "pk": 47,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Natillas",
+      "hc_rations": 50,
+      "usual_measure": 125
+    }
+  },
+  {
+    "pk": 48,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Petit suisse",
+      "hc_rations": 70,
+      "usual_measure": 55,
+      "glycemic_index": 40
+    }
+  },
+  {
+    "pk": 49,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Queso fresco",
+      "hc_rations": 250,
+      "usual_measure": 70,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 50,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Quesos de pasta, semis o curados"
+    }
+  },
+  {
+    "pk": 51,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Yogur natural entero o desnat.",
+      "hc_rations": 200,
+      "usual_measure": 125,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 52,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Yogur desnatado sabores o fruta",
+      "hc_rations": 125,
+      "usual_measure": 125,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 52,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Yogur entero, sabores o fruta",
+      "hc_rations": 70,
+      "usual_measure": 125,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 53,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Yogur líquido",
+      "hc_rations": 70,
+      "usual_measure": 200,
+      "glycemic_index": 40
+    }
+  },
+  {
+    "pk": 54,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Yogur tipo Actimel",
+      "hc_rations": 100,
+      "usual_measure": 94,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 55,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Yogur tipo Actimel 0%",
+      "hc_rations": 200,
+      "usual_measure": 94,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 56,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Arroz, crudo",
+      "hc_rations": 13
+    }
+  },
+  {
+    "pk": 57,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Arroz, cocido",
+      "hc_rations": 38,
+      "usual_measure": 230,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 58,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Arroz integral, crudo",
+      "hc_rations": 13
+    }
+  },
+  {
+    "pk": 59,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Arroz integral, cocido",
+      "hc_rations": 40,
+      "usual_measure": 240,
+      "glycemic_index": 50
+    }
+  },
+  {
+    "pk": 60,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Arroz hinchado\npara desayuno",
+      "hc_rations": 12,
+      "glycemic_index": 85
+    }
+  },
+  {
+    "pk": 61,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Arroz salvaje, crudo",
+      "hc_rations": 13
+    }
+  },
+  {
+    "pk": 62,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Arroz salvaje, cocido",
+      "hc_rations": 34,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 63,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Avena, crudo",
+      "hc_rations": 17
+    }
+  },
+  {
+    "pk": 64,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Avena, cocido",
+      "hc_rations": 34,
+      "glycemic_index": 40
+    }
+  },
+  {
+    "pk": 65,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Avena copos",
+      "hc_rations": 15,
+      "glycemic_index": 40
+    }
+  },
+  {
+    "pk": 66,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Boniato",
+      "hc_rations": 50,
+      "usual_measure": 80,
+      "glycemic_index": 50
+    }
+  },
+  {
+    "pk": 67,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Cebada, crudo",
+      "hc_rations": 14
+    }
+  },
+  {
+    "pk": 68,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Cebada, cocido",
+      "hc_rations": 42,
+      "glycemic_index": 45
+    }
+  },
+  {
+    "pk": 69,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Centeno, crudo",
+      "hc_rations": 15
+    }
+  },
+  {
+    "pk": 70,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Centeno, cocido",
+      "hc_rations": 38,
+      "glycemic_index": 45
+    }
+  },
+  {
+    "pk": 71,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Cereales desayuno",
+      "hc_rations": 15,
+      "glycemic_index": 77
+    }
+  },
+  {
+    "pk": 72,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Cereales desay., ricos en fibra tipo All-bram, óptima",
+      "hc_rations": 20,
+      "glycemic_index": 50
+    }
+  },
+  {
+    "pk": 73,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pan tostado o biscote",
+      "hc_rations": 15,
+      "usual_measure": 10,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 74,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pan en bastoncitos",
+      "hc_rations": 15,
+      "usual_measure": 15,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 75,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pasta alimenticia, crudo",
+      "hc_rations": 15
+    }
+  },
+  {
+    "pk": 76,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pasta alimenticia, cocido",
+      "hc_rations": 50,
+      "usual_measure": 300,
+      "glycemic_index": 50
+    }
+  },
+  {
+    "pk": 77,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Pasta al huevo, crudo",
+      "hc_rations": 16
+    }
+  },
+  {
+    "pk": 78,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Patata cocida, hervida",
+      "hc_rations": 50,
+      "usual_measure": 300,
+      "glycemic_index": 65
+    }
+  },
+  {
+    "pk": 79,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Patata, horno o asada",
+      "hc_rations": 35
+    }
+  },
+  {
+    "pk": 80,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Patatas fritas",
+      "hc_rations": 30,
+      "usual_measure":  60,
+      "glycemic_index": 70
+    }
+  },
+  {
+    "pk": 81,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Patatas chips",
+      "hc_rations": 20,
+      "usual_measure": 30,
+      "glycemic_index": 95
+    }
+  },
+  {
+    "pk": 82,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Puré de patatas, copos",
+      "hc_rations": 15,
+      "glycemic_index": 90
+    }
+  },
+  {
+    "pk": 83,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Puré de patatas, elabor. con leche",
+      "hc_rations": 80,
+      "glycemic_index": 90
+    }
+  },
+  {
+    "pk": 84,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Quinoa, crudo",
+      "hc_rations": 19
+    }
+  },
+  {
+    "pk": 85,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Quinoa, cocido",
+      "hc_rations": 48,
+      "glycemic_index": 35
+    }
+  },
+  {
+    "pk": 86,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Sémola de trigo, crudo",
+      "hc_rations": 14
+    }
+  },
+  {
+    "pk": 87,
+    "model": "foods.foods",
+    "fields": {
+      "name": "Sémola de trigo, cocido",
+      "hc_rations": 90,
+      "glycemic_index": 67
+    }
+  }
+]
