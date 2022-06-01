@@ -53,9 +53,13 @@ class RecordViewSet(DynamicSerializersMixin, viewsets.ModelViewSet):
     @action(methods=["get"], detail=False, url_path='report', url_name="report")
     def report(self, arg):
         data = []
+
+        # Query
         queryset = Records.objects.all()
         for record in list(queryset):
             data.append(record)
+
+        # PDF
         pdf = FPDF('P', 'mm', 'A4')
         pdf.add_page()
         pdf.set_font('helvetica', 'B', 16)
@@ -63,7 +67,7 @@ class RecordViewSet(DynamicSerializersMixin, viewsets.ModelViewSet):
         pdf.cell(40, 10, '', 0, 1)
         pdf.line(10, 30, 200, 30)
 
-        # Table #
+        # Table
         line_height = pdf.font_size * 1.5
         col_width = pdf.epw / 6
 
@@ -73,18 +77,20 @@ class RecordViewSet(DynamicSerializersMixin, viewsets.ModelViewSet):
         lista = ['Food name', 'Blood glucose', 'Rations', 'Unities', 'Phase day', 'Date']
         for item in lista:
             pdf.multi_cell(col_width, line_height, item, border=0, ln=3)
+
+        # Data
         pdf.set_font('helvetica', '', 10)
         pdf.ln(line_height)
         pdf.line(10, 38, 200, 38)
-        array = [1,2,3,4,5]
-        for num in array:
-            for record in data:
-                for food in list(record.foods.all()):
-                    foodN = (str(food.name)[:13] + '...') if len(str(food.name)) > 13 else str(food.name)
-                    lista = [foodN, str(round(record.blood_glucose)), str(round(food.hc_rations)), str("unity"),
-                             str(record.phasesDay.name), str(record.phasesDay.created_at.strftime('%m/%d/%y, %H:%M'))]
-                    for item in lista:
-                        pdf.multi_cell(col_width, line_height, item, border=0, ln=3)
-                    pdf.ln(line_height)
+        for record in data:
+            for food in list(record.foods.all()):
+                foodN = (str(food.name)[:13] + '...') if len(str(food.name)) > 13 else str(food.name)
+                lista = [foodN, str(round(record.blood_glucose)), str(round(food.hc_rations)), str("AQUI FALTA ALGO, EL UNITY"),
+                         str(record.phasesDay.name), str(record.phasesDay.created_at.strftime('%m/%d/%y, %H:%M'))]
+                for item in lista:
+                    pdf.multi_cell(col_width, line_height, item, border=0, ln=3)
+                pdf.ln(line_height)
+
+        # Output
         pdf.output('report.pdf', 'F')
         return FileResponse(open('report.pdf', 'rb'), as_attachment=True, content_type='application/pdf')
